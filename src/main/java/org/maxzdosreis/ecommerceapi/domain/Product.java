@@ -26,7 +26,7 @@ public class Product implements Serializable {
     private Long id;
 
     @Column(nullable = false, length = 250)
-    private String name;
+    private String description;
 
     @Column(nullable = false)
     private Double price;
